@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px; /* Adjust size as per the design */
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #333; /* Border around the profile picture */
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+.profile p {
+    font-size: 1em;
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.contact-info {
+    font-style: italic;
+    margin-left: auto;
+
+}
+
+.contact-info p div {
+    margin-bottom: 10px;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.section {
+    margin-bottom: 20px;
+
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+.work-experience, .education {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.linkedin-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+/* responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: auto;
+        margin: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-pic {
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        margin-left: 0;
+        text-align: left;
+    }
+}
