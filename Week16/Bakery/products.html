@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Munamii Cakery</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="product.css" />
+    </head>
+    <body>
+        <div id="header"></div>
+        <main>
+            <h1>Products</h1>
+            <section>
+                <h2>Cakes</h2>
+                <p>
+                    We offer a variety of cakes for all kinds of events and
+                    celebrations. Browse around to discover what you would like
+                    to buy.
+                </p>
+            </section>
+            <section>
+                <h2>Cupcakes</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img
+                            src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/3587618650.jpg"
+                            alt="A picture of cupcake."
+                        />
+                        <h3>Caja 12 cupcakes Dia de la Madre</h3>
+                        <p>20.00 $</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <a href="https://www.instagram.com/munamii.cakery/">Instagram</a>
+            <a href="https://www.facebook.com/munamiicupcakes">Facebook</a>
+            <a href="mailto:info@munamiicakery.com">Email</a>
+        </footer>
+        <script>
+            fetch("header.html")
+                .then((response) => response.text())
+                .then((data) => {
+                    document.getElementById("header").innerHTML = data;
+                })
+                .catch((error) =>
+                    console.error("Error loading the header:", error)
+                );
+        </script>
+    </body>
+</html>

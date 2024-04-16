@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Munamii Cakery</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="header"></div>
+        <main>
+            <h1>Welcome to Munamii Cakery!</h1>
+            <p>
+                Hi! Welcome to Munamii Cakery! We offer you the most delicious
+                cakes and cupcakes for all kinds of events and celebrations.
+                Browse around to discover what you would like to buy
+            </p>
+        </main>
+        <footer>
+            <a href="https://www.instagram.com/munamii.cakery/">Instagram</a>
+            <a href="https://www.facebook.com/munamiicupcakes">Facebook</a>
+            <a href="mailto:info@munamiicakery.com">Email</a>
+        </footer>
+        <script>
+            fetch("header.html")
+                .then((response) => response.text())
+                .then((data) => {
+                    document.getElementById("header").innerHTML = data;
+                })
+                .catch((error) =>
+                    console.error("Error loading the header:", error)
+                );
+        </script>
+    </body>
+</html>

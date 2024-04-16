@@ -1,0 +1,75 @@
+/*
+ Cookie font from Google Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body {
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+    max-width: 100px; /* Adjust to your desired width */
+    height: auto;
+    display: inline;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a.active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    header, footer {
+        text-align: left;
+    }
+}
