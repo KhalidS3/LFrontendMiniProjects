@@ -1,0 +1,114 @@
+[
+    {
+        "title": "Funfetti",
+        "description": "Cupcake 1 is a...",
+        "price": 4.99,
+        "type": "cupcake",
+        "img": "https://images.unsplash.com/photo-1599785209796-786432b228bc?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Red Velvet",
+        "description": "Cupcake 2 is a...",
+        "price": 3.99,
+        "type": "cupcake",
+        "img": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Ferrero Rocher",
+        "description": "Cupcake 1 is a...",
+        "price": 4.99,
+        "type": "cupcake",
+        "img": "https://images.unsplash.com/photo-1603532648955-039310d9ed75?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Clown",
+        "description": "Cupcake 2 is a...",
+        "price": 2.99,
+        "type": "cupcake",
+        "img": "https://plus.unsplash.com/premium_photo-1678310877551-396c3953c79e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Stroopwafel",
+        "description": "Cupcake 1 is a...",
+        "price": 3.99,
+        "type": "cupcake",
+        "img": "https://images.unsplash.com/photo-1623246123320-0d6636755796?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Strawberry",
+        "description": "Cupcake 2 is a...",
+        "price": 4.99,
+        "type": "cupcake",
+        "img": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Raspberry",
+        "description": "Cupcake 1 is a...",
+        "price": 1.99,
+        "type": "cupcake",
+        "img": "https://images.unsplash.com/photo-1615837136007-701de6015cfb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Rose & Violet",
+        "description": "Cupcake 2 is a...",
+        "price": 3.99,
+        "type": "cupcake",
+        "img": "https://images.unsplash.com/photo-1555526148-0fa555bb2e78?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Vanilla & Rose",
+        "description": "Wedding Cake 1 is a...",
+        "price": 149.99,
+        "type": "wedding-cake",
+        "img": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Fig & Pistachio",
+        "description": "Wedding Cake 2 is a...",
+        "price": 79.99,
+        "type": "wedding-cake",
+        "img": "https://images.unsplash.com/photo-1565661834013-d196ca46e14e?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Cinnamon",
+        "description": "Wedding Cake 1 is a...",
+        "price": 89.99,
+        "type": "wedding-cake",
+        "img": "https://plus.unsplash.com/premium_photo-1667115136293-8fbce98e4a60?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Vanilla & Strawberry",
+        "description": "Wedding Cake 2 is a...",
+        "price": 179.99,
+        "type": "wedding-cake",
+        "img": "https://images.unsplash.com/photo-1525257831700-183b9b8bf5c4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Very Berry",
+        "description": "Wedding Cake 1 is a...",
+        "price": 119.99,
+        "type": "wedding-cake",
+        "img": "https://images.unsplash.com/photo-1623428454614-abaf00244e52?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Vanilla",
+        "description": "Wedding Cake 2 is a...",
+        "price": 79.99,
+        "type": "wedding-cake",
+        "img": "https://plus.unsplash.com/premium_photo-1673818514864-f6da7dd05e54?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Make your own",
+        "description": "Wedding Cake 1 is a...",
+        "price": 199.99,
+        "type": "wedding-cake",
+        "img": "https://plus.unsplash.com/premium_photo-1674197189273-794f387ec480?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "title": "Vanilla & Rose",
+        "description": "Wedding Cake 2 is a...",
+        "price": 99.99,
+        "type": "wedding-cake",
+        "img": "https://images.unsplash.com/photo-1519654793190-2e8a4806f1f2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
