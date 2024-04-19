@@ -1,0 +1,22 @@
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.whatsapp-link {
+    color: #25d366;
+}
+.instagram-link {
+    color: #e1306c;
+}
+.facebook-link {
+    color: #1877f2;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}

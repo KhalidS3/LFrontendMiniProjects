@@ -6,23 +6,54 @@
             href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <link rel="stylesheet" type="text/css" href="style.css" />
         <script src="index.js"></script>
     </head>
     <body>
         <div id="header"></div>
         <main>
+            <div id="myModal" class="modal" style="display: none">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>
+                        Welcome to Munamii Cakery! We're excited to have you
+                        here. Our website is still baking in the oven, so to
+                        speak, and your feedback is invaluable in helping us
+                        fine-tune the recipe. Thanks for being part of our
+                        journey to create the perfect online cakery experience!
+                    </p>
+                </div>
+            </div>
             <h1>Welcome to Munamii Cakery!</h1>
             <p>
                 Hi! Welcome to Munamii Cakery! We offer you the most delicious
                 cakes and cupcakes for all kinds of events and celebrations.
                 Browse around to discover what you would like to buy
             </p>
+            <div class="product-showcase">
+                <a href="products.html#cupcakes" class="product">
+                    <img
+                        src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Cupcake."
+                    />
+                    <div class="product-info">Cupcakes</div>
+                </a>
+                <a href="products.html#wedding-cakes" class="product">
+                    <img
+                        src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Wedding cakes."
+                    />
+                    <div class="product-info">Wedding Cakes</div>
+                </a>
+            </div>
         </main>
-        <footer>
-            <a href="https://www.instagram.com/munamii.cakery/">Instagram</a>
-            <a href="https://www.facebook.com/munamiicupcakes">Facebook</a>
-            <a href="mailto:info@munamiicakery.com">Email</a>
-        </footer>
+        <div id="footer"></div>
     </body>
 </html>

@@ -1,0 +1,26 @@
+.owner-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.owner-info img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.owner-info .text-content {
+    flex-grow: 1;
+}
+
+.owner-info .text-content {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.owner-info .text-content strong {
+    font-weight: bold;
+    color: #333;
+}
